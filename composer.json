@@ -1,0 +1,31 @@
+{
+  "name": "thiagoprz/vegvisir",
+  "description": "Vegvisir - Laravel Search Indexer",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "autoload": {
+    "classmap": [
+      "src/"
+    ],
+    "psr-4": {
+      "Thiagoprz\\Vegvisir\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "Thiagoprz\\Vegvisir\\Tests\\": "tests",
+    "classmap": [
+      "tests"
+    ]
+  },
+  "require": {
+    "php": "^8.1",
+    "laravel/framework": "8.x-dev || 9.*",
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*",
+    "spatie/data-transfer-object": "^3.7.3"
+  },
+  "require-dev": {
+    "orchestra/testbench": "6"
+  }
+}
